@@ -1,0 +1,43 @@
+.edit {
+  width: 100%;
+}
+
+.edit__input {
+  padding: 14px 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #E6E6E6;
+}
+
+.edit__button-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  flex-basis: 50%;
+  padding: 9px 36px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .2s background-color ease-in-out;
+}
+
+.edit__cancel {
+  margin-right: 20px;
+  background-color: rgba(242, 242, 242, 1);
+  &:hover {
+    background-color: rgb(197, 197, 197);
+  }
+}
+
+.edit__edit {
+  background-color: rgba(35, 163, 255, 1);
+  color: #fff;
+  &:hover {
+    background-color: rgb(24, 123, 196);
+  }
+}
