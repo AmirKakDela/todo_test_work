@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+    overflow: hidden;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+button, input, textarea {
+    font-family: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Radomir Tinkov - Gilroy-Light.eot');
+    src: local('☺'), url('fonts/Radomir Tinkov - Gilroy-Light.woff') format('woff'), url('fonts/Radomir Tinkov - Gilroy-Light.ttf') format('truetype'), url('fonts/Radomir Tinkov - Gilroy-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Radomir Tinkov - Gilroy-ExtraBold.eot');
+    src: local('☺'), url('fonts/Radomir Tinkov - Gilroy-ExtraBold.woff') format('woff'), url('fonts/Radomir Tinkov - Gilroy-ExtraBold.ttf') format('truetype'), url('fonts/Radomir Tinkov - Gilroy-ExtraBold.svg') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
